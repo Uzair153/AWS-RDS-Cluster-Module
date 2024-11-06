@@ -1,0 +1,9 @@
+environment             = "nonprod"
+kms_key_arn             = "arn:aws:kms:us-east-1:891377137882:key/2cd3ac0d-f2a3-4b3e-bfa4-ff46b465f0b5"
+project                 = "nonprod-RDS"
+database_identifier     = "nonprod"
+engine                  = "aurora-postgresql"
+backup_retention_period = "28"
+storage_encrypted       = true
+vpc_id                  = "vpc-07744ebbe62ffac58"
+aws_db_subnet_group     = "nonprod-devqa-private"
